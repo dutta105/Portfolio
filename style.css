@@ -533,7 +533,7 @@ form button:hover{
   
     .container-4{
       background-color: #c3baba;
-      clip-path: polygon(0 0,100% 0%,100% 100%,0% 95%);
+      clip-path: polygon(0 0,100% 0%,100% 100%,0% 97%);
     }
     .container-4 .header-2{
       margin-top: 1rem;
