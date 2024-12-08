@@ -31,10 +31,12 @@
     color: var(--primary);
     border-color: var(--primary);
     margin-bottom: -0.5rem;
+    border-radius: 1rem;
 }
 .btn-secondary:hover{
     background: lightcoral;
     color: black;
+    border-radius: 1rem;
 }
 .flex-1{
     flex:1;

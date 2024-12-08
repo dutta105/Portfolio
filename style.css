@@ -269,59 +269,43 @@ section.about .social a:hover{
 .Contact{
    justify-content: center;
    align-items: center;
-   min-height: 100vh;
-   background-color: #1f242d;
+   min-height: 300px;
+   background-color: #0e1013;
+   padding-left: 11rem;
+   padding-right: 12rem;
 }
 .Contact h2{
-   font-size: 40px;
+   font-size: 70px;
    color: #ededed;
    text-align: center;
-   margin-bottom: 10px;
-}
-.Contact form{
-   padding-left: 25rem;
-   width: 1100px;
+   margin-bottom: 5px;
+} 
+.Contact h3{
+   color: #9f6868;
+   font-size: 50px;
    text-align: center;
 }
-form .input-box{
-   display: flex;
-   justify-content: space-evenly;
-}
-.field .item{
-   width: 100%;
-   padding: 18px;
-   background: transparent;
-   border: 2px solid #cef;
-   outline: none;
-   border-radius: 6px;
-   color: #ededed;
-   margin: 12px 0;
-}
-.field .item ::placeholder{
-   color: rgba(255, 255, 255,.3);
-}
-form button{
-   padding: 12px 32px;
-   background: #0ef;
-   outline: none;
-   border: none;
-   border-radius: 7px;
-   box-shadow: 0 0 4px #0ef;
-   font-size: 16px;
-   color: #333;
-   letter-spacing: 1px;
-   font-weight: 600;
-   cursor: pointer;
+.Contact p{
    margin-top: 20px;
-   transition: .5s;
+   color: #aa9ebf;
+   text-align: center;
 }
-form button:hover{
-   box-shadow: 0 0 14px #0ef;
-
+.Contact button{
+   margin-top: 10%;
+  transform: translateX(220%);
+  box-shadow: 0px 5px 10px 0px #5860aa;
 }
-.Contact h5{
-   padding-top: 1rem;
-   color: #ccc;
+.Contact button a{
+   color: #c3baba;
+   text-decoration: none;
+}
+.Contact div{
+   color: #0ef;
+   font-size:larger;
+   margin-top: 5%;
+   margin-bottom: -5%;
+   margin-left: 30%;
+   margin-right: 30%;
 }
 
 @media screen and (max-width: 600px){
@@ -448,6 +432,10 @@ form button:hover{
       color: #1d51c3;
       margin-left: 2rem;
      }
+     .education h4{
+      color: #250241;
+      font-weight: 700;
+     }
      .education{
        margin-top: 0.2rem;
         padding-left: 2rem;
@@ -459,7 +447,7 @@ form button:hover{
         border: 2px solid #9d8f8f;
         background-color: #ffffff;
         cursor: pointer;
-        transition: all 0.4s;
+        transition: all 0.5s;
         margin-left: 0.3rem;
         margin-bottom: 20px;
         border-radius: 2rem;
@@ -467,9 +455,10 @@ form button:hover{
      
      }
      .education .content .box:hover{
-        box-shadow: 0px 5px 30px 0px #959bd1;
+        box-shadow: 0px 5px 30px 0px #989dc7;
         border: 1px solid transparent;
-        background-color: #9d8f8f;
+        border-radius: 2rem;
+        background-color: #857676;
      }
      
 
@@ -569,62 +558,44 @@ form button:hover{
    .Contact{
       justify-content: center;
       align-items: center;
-      min-height: 400px;
-      background-color: #1f242d;
-      clip-path: polygon(0% 0%,100% 5%,100% 100%, 0% 100%);
+      min-height: 300px;
+      background-color: #0e1013;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      clip-path: polygon(0% 0%,100% 6%,100% 100%, 0% 100%);
    }
    .Contact h2{
       font-size: 30px;
       color: #ededed;
       text-align: center;
       margin-bottom: 5px;
-   }
-   .Contact form{
-      padding-left:2rem;
-      width: 300px;
+   } 
+   .Contact h3{
+      color: #9f6868;
+      font-size: 20px;
       text-align: center;
    }
-   form .input-box{
-      display: flex;
-      justify-content: space-evenly;
+   .Contact p{
+      margin-top: 12px;
+      color: #60ccfe;
+      text-align: center;
    }
-   .field .item{
-      width: 100%;
-      padding: 5px;
-      background: transparent;
-      border: 2px solid #cef;
-      outline: none;
-      border-radius: 6px;
-      color: #ededed;
-      margin-left: 3px;
-      margin-right: 3px;
+   .Contact button{
+      margin-top: 10%;
+     transform: translateX(53%);
+     box-shadow: 0px 5px 10px 0px #555eb1;
    }
-   .field .item ::placeholder{
-      color: rgba(255, 255, 255,.3);
+   .Contact button a{
+      color: #c3baba;
+      text-decoration: none;
    }
-   form button{
-      padding: 12px 32px;
-      background: #0ef;
-      outline: none;
-      border: none;
-      border-radius: 7px;
-      box-shadow: 0 0 4px #0ef;
-      font-size: 16px;
-      color: #333;
-      letter-spacing: 1px;
-      font-weight: 600;
-      cursor: pointer;
-      margin-top: 20px;
-      transition: .5s;
+   .Contact div{
+      color: #0ef;
+      font-size:small;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 1rem;
+      margin-right: 1rem;
+     
    }
-   form button:hover{
-      box-shadow: 0 0 14px #0ef;
-   
-   }
-   .Contact h5{
-      padding-top: 1rem;
-      color: #ccc;
-   }
-
-   
 }
